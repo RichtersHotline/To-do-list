@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
@@ -11,21 +15,20 @@
    <div class="BGCon">
     <div class="BGCon2">
   <h1>To Do List</h1>
-  <h4 id="ToDate">Date Goes Here</h4>
+  <h4 id="ToDate"></h4>
   <button type="text" id="sorter" onclick="Sort()"><img src="https://richtershotline.github.io/Pimages/Images/sort.png" id="SortImg"></button>
   <div class="Enter" id="Inputter">
   <input type="text" id="UserInput"><button type="text" id="Check" onclick="Confirm()"><img src="https://richtershotline.github.io/Pimages/Images/check.png" id="CheckMark">
   </div>
   
   <ul id="ToDoList"></ul>
-  <li id="ToDoItem"><button type="button" id="erase" onclick="Delete()"><img src="https://richtershotline.github.io/Pimages/Images/eraser.png" id="Deleter"></button></li>
   <li id="ToDoItem"></li>
   <li id="ToDoItem"></li>
   <li id="ToDoItem"></li>
   <li id="ToDoItem"></li>
    </div>
 </div>
-<div class="pencil"> <button type="button" id="addBtn" onclick="ConsoleTHIS()"><img src="https://richtershotline.github.io/Pimages/Images/pencil2.png"></button></div>
+<div class="pencil"> <button type="button" id="addBtn" onclick="AddItem()"><img src="https://richtershotline.github.io/Pimages/Images/pencil2.png"></button></div>
 
 
 

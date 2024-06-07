@@ -13,6 +13,7 @@ body {
 background-position:center;
 background-attachment: fixed;
 background-color:burlywood;
+
 }
 .BGCon {
 
@@ -27,7 +28,10 @@ right:0;
 top:2rem;
 opacity:1;
 
+
+
 }
+
 
 .BGCon2 {
 width:99%;
@@ -103,6 +107,11 @@ background:none;
 
 
 }
+input:focus {
+
+outline:none;
+
+}
 .BGCon2  li {
 margin:auto; 
 font-size:14px;
@@ -115,6 +124,7 @@ li {
 
 padding:2px;
 border-bottom:2px solid black;
+
 
 }
 .BGCon2 h1 {
