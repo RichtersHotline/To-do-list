@@ -12,7 +12,6 @@ body {
     background-size:center;
 background-position:center;
 background-attachment: fixed;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 background-color:burlywood;
 }
 .BGCon {
@@ -34,15 +33,33 @@ opacity:1;
 width:99%;
 background-color:white;
 box-shadow:2px 2px black;
-text-align:center;
 margin-top:0.2rem;
 outline:0.4px solid black;
 
 }
 
-.BGCon2 p {
-width:80%;
+.BGCon2  li {
 margin:auto; 
-font-size:12px;
+font-size:14px;
+text-align:left;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+li {
+
+padding:2px;
+border-bottom:2px solid black;
+
+}
+.BGCon2 h1 {
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:100;
+    
+}
+.BGCon2 h4 {
+
+text-align:center;
 
 }
