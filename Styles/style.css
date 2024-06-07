@@ -37,7 +37,72 @@ margin-top:0.2rem;
 outline:0.4px solid black;
 
 }
+.pencil {
 
+    width:80%;
+display:flex;
+justify-content: flex-end;
+margin-top:2rem;
+}
+.pencil img {
+height:12.75rem;
+
+&:hover {
+
+
+background-color:#E0A964;
+transform:scale(1.2, 1.2);
+}
+}
+#addBtn {
+    background-color:#E0A964;
+    border:none;
+    background:none;
+}
+
+#UserInput {
+    width:90%;
+    margin:auto;
+    border:none;
+    border-bottom:2px dotted black;
+text-align:center;
+}
+.Enter {
+display:none;   
+
+}
+
+#Deleter {
+
+    float:right;
+    width:1rem;
+
+}
+#CheckMark {
+    float:right;
+    width:1rem;
+}
+#erase {
+ display:none;
+    float:right;
+    border:none;
+
+}
+#Check {
+    float:right;
+    border:none;
+background:none;
+}
+#sorter {
+    border:none;
+    background:none;
+
+}
+#SortImg {
+    width:1rem;
+
+
+}
 .BGCon2  li {
 margin:auto; 
 font-size:14px;
