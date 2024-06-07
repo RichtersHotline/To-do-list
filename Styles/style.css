@@ -6,3 +6,43 @@ padding: 0;
 box-sizing:border-box;
 
 }
+
+body {
+    background-image:url("https://richtershotline.github.io/Pimages/Images/Desk.jpg");
+    background-size:center;
+background-position:center;
+background-attachment: fixed;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color:burlywood;
+}
+.BGCon {
+
+    width:35%;
+box-shadow:2px 2px black;
+outline:0.5px solid black;
+margin:auto;
+background-color:white;
+position:absolute;
+left:0;
+right:0;
+top:2rem;
+opacity:1;
+
+}
+
+.BGCon2 {
+width:99%;
+background-color:white;
+box-shadow:2px 2px black;
+text-align:center;
+margin-top:0.2rem;
+outline:0.4px solid black;
+
+}
+
+.BGCon2 p {
+width:80%;
+margin:auto; 
+font-size:12px;
+
+}
